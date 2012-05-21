@@ -1,0 +1,258 @@
+/*
+* Author : Matthew Stenquist
+* Author URL : http://www.dig.ital.me
+* Template Keywords : iPhone, Splash Page, Simple
+* Author Notes : This is a free to use iPhone template that I made 
+* Feel free to alter it in anyway so. Enjoy!
+* License: GNU General Public License v2.0
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html;
+//
+*/
+
+body {
+	background:#FFF;
+	background: -webkit-gradient(linear, 
+				0% 0%, 0% 100%, from(#F2F2F2), to(#FFF));
+	background: -webkit-linear-gradient(top, #F2F2F2, #FFF);
+	background: -moz-linear-gradient(top, #F2F2F2, #FFF);
+	background: -ms-linear-gradient(top, #F2F2F2, #FFF);
+	 background: -o-linear-gradient(top, #F2F2F2, #FFF);
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-size:contain;
+	-moz-animation: fade 3.5s linear;
+	-webkit-animation: fade 3.5s linear;
+	-ms-animation: fade 3.5s linear;
+	-o-animation: fade 3.5s linear;
+	animation: fade 3.5s linear;
+	-moz-animation-duration: 1.4s;
+	-webkit-animation-duration: 1.4s;
+	-ms-animation-duration: 1.4s;
+	-o-animation-duration: 1.4s;
+	animation-duration: 1.4s;
+}
+::selection {
+	background: #8fd9f8;
+	transition:2s;
+	-moz-transition:2s;
+	-webkit-transition:2s;
+	-o-transition:2s;
+	}
+::-moz-selection {
+	background: #8fd9f8; 
+	transition:2s;
+	-moz-transition:2s;
+	-webkit-transition:2s;
+	-o-transition:2s;
+}
+* heading, span, hgroup, h1,h2,h3,h4,h5,h6, p, a  {
+	font-family: "HelveticaNeue-Light", 
+				 "Helvetica Neue Light", 
+				 "Helvetica Neue", 
+				  Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-decoration:none;
+	text-shadow:1px 1px 0 #EBEBEB;
+}
+h1 {
+	font-size:1.5em;
+}
+h1 + h2 {
+	font-size:1.2em;
+}
+p {
+	font-size:1.2em;
+	line-height:25px;
+}
+h1[class="title"] {
+	color:#FFF;
+	text-shadow: -1px -1px 0 #474747, 1px 1px 0 #474747;
+	font-size:3.2em;
+	background-color:#000;
+	padding:0 0 5px 10px;
+	border-radius:.1ex;
+	-moz-border-radius:.1ex;
+}
+#wrapper {
+	width:750px;
+	margin:0 auto;
+	margin-top:20px;
+}
+#iPhone {
+	float:left;
+	width:300px;
+	height:595px;
+}
+#iPhone .phone {
+	display:block;
+	background:url(images/iphone.png) no-repeat center top;
+	width:300px;
+	height:595px;
+	clear:both;
+}
+#iPhone .iphone-image img {
+	position:absolute;
+	top:116px;
+	padding-left:32px;
+}
+#side {
+	float:right;
+	width:430px;
+}
+/* BUTTONS! */
+#button {
+	float:right;
+}
+#button .button1 {
+	background:#255982;
+	width:200px;
+	height:70px;
+	border-radius:.7ex;
+	-moz-border-radius:.7ex;
+	background: -webkit-linear-gradient(top, #268FCB, #215F90);
+	background: -webkit-linear-gradient(top, #268FCB, #215F90);
+	background: -moz-linear-gradient(top, #268FCB, #215F90);
+	background: -ms-linear-gradient(top, #268FCB, #215F90);
+	 background: -o-linear-gradient(top, #268FCB, #215F90);
+	
+	border:1px solid #00477F;
+	float:left;
+}
+#button .button1 a {
+	color:#FFF;
+	font-weight:bold;
+	font-size:2em;
+	letter-spacing:.1ex;
+	text-shadow:-1px -1px 0 #00477F,
+				1px 1px 0 #00477F;
+	padding-left:25px;
+	position:relative;
+	top:13px;
+}
+#button .button1:hover a {
+	text-shadow:-1px -1px 0 #257a92,
+			    1px 1px 0 #257a92;
+}
+#button .button1:hover {
+	background:#34C3FF;
+	width:200px;
+	height:70px;
+	border-radius:.7ex;
+	-moz-border-radius:.7ex;
+	background: -webkit-linear-gradient(top, #34C3FF, #268FCB);
+	background: -webkit-linear-gradient(top, #34C3FF, #268FCB);
+	background: -moz-linear-gradient(top, #34C3FF, #268FCB);
+	background: -ms-linear-gradient(top, #34C3FF, #268FCB);
+	background: -o-linear-gradient(top, #34C3FF, #268FCB));
+	border:1px solid #37aacb;
+	cursor:pointer;
+}
+/* BUTTON 2 */
+#button .button2 {
+	background:#B7F259;
+	width:200px;
+	height:70px;
+	border-radius:.7ex;
+	-moz-border-radius:.7ex;
+	background: -webkit-linear-gradient(top, #FFC859, #FF8B59);
+	background: -webkit-linear-gradient(top, #FFC859, #FF8B59);
+	background: -moz-linear-gradient(top, #FFC859, #FF8B59);
+	background: -ms-linear-gradient(top, #FFC859, #FF8B59);
+	background: -o-linear-gradient(top, #FFC859, #FF8B59);
+	border:1px solid #c87721;
+	float:right;
+	margin-left:20px;
+}
+#button .button2 a {
+	color:#FFF;
+	font-weight:bold;
+	font-size:2em;
+	letter-spacing:.1ex;
+	text-shadow:-1px -1px 0 #d38306,
+				1px 1px 0 #d38306;
+	padding-left:13px;
+	position:relative;
+	top:13px;
+}
+#button .button2:hover {
+	background:#34C3FF;
+	width:200px;
+	height:70px;
+	border-radius:.7ex;
+	-moz-border-radius:.7ex;
+	background: -webkit-linear-gradient(top, #ffde00, #ffae00);
+	background: -webkit-linear-gradient(top, #ffde00, #ffae00);
+	background: -moz-linear-gradient(top, #ffde00, #ffae00));
+	background: -ms-linear-gradient(top, #ffde00, #ffae00);
+	background: -o-linear-gradient(top, #ffde00, #ffae00);
+	border:1px solid #ffb400;
+	cursor:pointer;
+}
+/* BOTTOM OF THE SITE! */
+footer {
+	height:30px;
+	margin:0 auto;
+	clear:both;
+	position:relative;
+	top:-20px;
+	width:750px;
+}
+#footer ul > li {
+	display:inline;
+	border-right:1px solid #D8D8D8;
+	padding-left:10px;
+	padding-right:10px;
+	float:left;
+}
+#footer ul li a {
+	color:#878787;
+}
+span[class="copyright"] {
+	float:right;
+	color:#878787;
+}
+
+/* ANIMATION KEY FRAMES */
+@keyframes fade- {
+     0% {opacity:0.0;}
+     25% {opacity:0.2;}
+     35% {opacity:.0.3;}
+     45% {opacity:.0.4;}
+     50% {opacity:0.5;}
+     75% {opacity:0.7;}
+     85% {opacity:0.8;}
+     95% {opacity:0.9;}
+     100%{opacity:1.0;}
+} 
+@-moz-keyframes fade {   
+ 	0% {opacity:0.0;}
+     25% {opacity:0.2;}
+     35% {opacity:.0.3;}
+     45% {opacity:.0.4;}
+     50% {opacity:0.5;}
+     75% {opacity:0.7;}
+     85% {opacity:0.8;}
+     95% {opacity:0.9;}
+     100%{opacity:1.0;}
+}
+@-webkit-keyframes fade{
+	 0% {opacity:0.0;}
+     25% {opacity:0.2;}
+     35% {opacity:.0.3;}
+     45% {opacity:.0.4;}
+     50% {opacity:0.5;}
+     75% {opacity:0.7;}
+     85% {opacity:0.8;}
+     95% {opacity:0.9;}
+     100%{opacity:1.0;}
+}	
+@-o-keyframes fade {
+	 0% {opacity:0.0;}
+     25% {opacity:0.2;}
+     35% {opacity:.0.3;}
+     45% {opacity:.0.4;}
+     50% {opacity:0.5;}
+     75% {opacity:0.7;}
+     85% {opacity:0.8;}
+     95% {opacity:0.9;}
+     100%{opacity:1.0;}
+}	
