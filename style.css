@@ -1,4 +1,6 @@
 /*
+*
+*
 * Author : Matthew Stenquist
 * Author URL : http://www.dig.ital.me
 * Template Keywords : iPhone, Splash Page, Simple
@@ -6,7 +8,8 @@
 * Feel free to alter it in anyway so. Enjoy!
 * License: GNU General Public License v2.0
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html;
-//
+*
+*
 */
 
 body {
@@ -16,8 +19,8 @@ body {
 	background: -webkit-linear-gradient(top, #F2F2F2, #FFF);
 	background: -moz-linear-gradient(top, #F2F2F2, #FFF);
 	background: -ms-linear-gradient(top, #F2F2F2, #FFF);
-	 background: -o-linear-gradient(top, #F2F2F2, #FFF);
-	background-repeat:no-repeat;
+	background: -o-linear-gradient(top, #F2F2F2, #FFF);
+	background-repeat:no-repeat,;
 	background-position:center top;
 	background-size:contain;
 	-moz-animation: fade 3.5s linear;
@@ -112,7 +115,7 @@ h1[class="title"] {
 	background: -webkit-linear-gradient(top, #268FCB, #215F90);
 	background: -moz-linear-gradient(top, #268FCB, #215F90);
 	background: -ms-linear-gradient(top, #268FCB, #215F90);
-	 background: -o-linear-gradient(top, #268FCB, #215F90);
+	background: -o-linear-gradient(top, #268FCB, #215F90);
 	
 	border:1px solid #00477F;
 	float:left;
@@ -224,7 +227,7 @@ span[class="copyright"] {
      100%{opacity:1.0;}
 } 
 @-moz-keyframes fade {   
- 	0% {opacity:0.0;}
+     0% {opacity:0.0;}
      25% {opacity:0.2;}
      35% {opacity:.0.3;}
      45% {opacity:.0.4;}
@@ -235,7 +238,7 @@ span[class="copyright"] {
      100%{opacity:1.0;}
 }
 @-webkit-keyframes fade{
-	 0% {opacity:0.0;}
+     0% {opacity:0.0;}
      25% {opacity:0.2;}
      35% {opacity:.0.3;}
      45% {opacity:.0.4;}
@@ -246,7 +249,7 @@ span[class="copyright"] {
      100%{opacity:1.0;}
 }	
 @-o-keyframes fade {
-	 0% {opacity:0.0;}
+     0% {opacity:0.0;}
      25% {opacity:0.2;}
      35% {opacity:.0.3;}
      45% {opacity:.0.4;}
